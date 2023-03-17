@@ -65,31 +65,51 @@ Released   : 20140221
 					inference; now that the listener has a new prior on the type of sound they are hearing, that
 					being the NBC chime, as long as the rest of the information they can hear is consistent, timing
 					and number of notes, they percieve the sound despite having incomplete pitch information.
+					The scientific question we wish to answer is whether priming on a recognizable melody aids, 
+					inhibits, or does not affect the ability to discriminate between pitches changes within the melody
+					 when shifted above the phaselocking limit. As our illusion relies on priming, we will leave a complete
+					 explanation of the illusion until after you have tried it.
 				</p>
-				<p>
-					In brief, our illusion primes the user with the Imperial March theme that is upshifted an octave at a time, 
-					and once the phaselocking limit is passed, changes pitch elements of the sound to see if the changes
-					are detectable to the user. By priming the user with a certain melody within the phaselocking limit, the listener 
-					now expects to hear the sound they have developed a prior to. The sound is played 7 times with the same rhythm across
-					, with the 5th having changed notes but same relative ordering of tones, i.e. note 4 is higher in frequency than
-					note 5 if that was the case in the original sound. The 6th and 7th iterations play a different frequency ordering of the
-					 notes, with the final segment of the sound notably descending instead of ascending. With this illusion, we found that we 
-					were able to detect the pitch anomalies at much higher frequencies than phaselocking would suggest we'd be able to detect.
+				<p>For this illusion we have created two samples, one that has the melody with normalized note intervals
+					and the other with the correct rhythm of the melody. The same sound will be played at a high frequency at first,
+					and then decreasing until within phaselocking range, and then increase to the same high frequency again.
+					Can you tell what the melody is on the way down? 
+					Can you hear any changes on the way up? Listen through each sample twice and see if you notice
+					any differences between each playthrough.
 				</p>
-				<p>If headphones should be used (e.g. because you're using spatial sound), say that here.</p>
 
 				<!-- Here is some template code to help you insert sounds and images into the page: -->
 				<!-- How to insert sounds -->
+				<h3>Rhythm Normalized Melody</h3>
 				<audio controls>
-					<source src="time_normed_imperial.wav" type="audio/wav">
+					<source src="sounds/No Rhythm Good.wav" type="audio/wav">
 				  Your browser does not support the audio element.
 				</audio><br>
+				<h3>Correct Rhythm</h3>
 				<audio controls>
-					<source src="Illusion.wav" type="audio/wav">
+					<source src="sounds/With Rhythm Good.wav" type="audio/wav">
+				  Your browser does not support the audio element.
+				</audio><br>
+				<h3>Melody in Isolation</h3>
+				<audio controls>
+					<source src="sounds/imperialMarch.wav" type="audio/wav">
 				  Your browser does not support the audio element.
 				</audio><br>
 				<!--WAV files will work best-->
-
+				<h3>Illusion Explanation</h3>
+				<p>
+					In brief, our illusion primes the user with the Imperial March theme that is upshifted an octave at a time, 
+					and once the phaselocking limit is passed, changes pitch elements of the sound to see if the changes
+					are detectable to the user. Each illusion begins with noise at a high frequency and shifts it down to where the melody
+					is recognizable, and then shifts it back up; at the high frequencies of both the start and the finish, the melody has notes
+					that are changed. These note changes are clearly perceptible at lower octaves, and we've attached comparisons of the true 
+					and altered melodies at the bottom of the page so one can listen to the difference. We've personally found that after
+					recognizing the melody at the lower levels, people are able to detect changes to the melody at higher octaves than before.
+					By priming the user with a certain melody within the phaselocking limit, the listener now expects to hear the sound they 
+					have developed a prior for. With this illusion, we found that we were able to detect the pitch anomalies at much higher 
+					frequencies than phaselocking would suggest we'd be able to detect, suggesting that we become more sensitive to pitches
+					we expect to hear.
+				</p>
 				<!-- How to insert images:-->
 				<img src="spectrogram.jpg" width=500/><br>
 				<!--You can use the width parameter to change the size of your image-->
@@ -97,14 +117,30 @@ Released   : 20140221
 
 				<!-- How to insert images that play sounds when you click them -->
 				<audio id="s1">
-				  <source src="TODO:my_sound_name.wav" type="audio/wav"/>
+				  <source src="sounds/extra hard mode.wav" type="audio/wav"/>
 				</audio>
-				<img src="TODO:my_image_name.png" width=500 onClick="document.getElementById('s1').play(); return false;" style="cursor: pointer;"/><br>
+				<img src="images/935_clones.png" width=500 onClick="document.getElementById('s1').play(); return false;" style="cursor: pointer;"/><br>
 				<!-- you can use any short name in place of "s1" for audio id, it's just how the browser knows which sound to play using "getElementByID" -->
+				<p>We heard there are musicians in the lab! Click on the above image for extra hard mode.</p>
+				<h3>Spectrograms of the Illusions</h3>
+				<p>The spectrograms are ordered with no rhythm first, then with rhythm, and then the extra hard mode sample.</p>
+				<img src="images/no_rhythm.jpeg" width=500/><br>
+				<img src="images/rhythm.jpeg" width=500/><br>
+				<img src="images/extra_hard.jpeg" width=500/><br>
+				<h3>Correct Melody Compared to the Changed Melody in Each Illusion</h3>
+				<p>Each sound plays the correct melody and then the altered melody for each sample. The first is for the normalized
+					rhythm sample and the second is the with rhythm sample.
+				</p>
+				<audio controls>
+					<source src="sounds/No Rhythm answer.wav" type="audio/wav">
+				  Your browser does not support the audio element.
+				</audio><br>
+				<audio controls>
+					<source src="sounds/With Rhythm answer.wav" type="audio/wav">
+				  Your browser does not support the audio element.
+				</audio><br>
 
 				<p>Attneave, F., &amp; Olson, R. K. (1971). Pitch as a Medium: A New Approach to Psychophysical Scaling. The American Journal of Psychology, 84(2), 147–166. http://www.jstor.org/stable/1421351, Accessed 4/8/2014 15:35<p>
-				
-				<img src="935_clones.png" width=500/><br>
 		</div>
 		<!-- begin wwww.htmlcommentbox.com -->
 		 <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML </a> is loading comments...</div>
