@@ -55,19 +55,43 @@ Released   : 20140221
 				<h2>How does priming affect the phase locking limit?</h2>
 				<span class="byline">Chuharski, Dow, Hess</span> </div>
 
-				<p>TODO: insert your 2 paragraph explanation of your demo design here.</p>
+				<p>In our illusion, we wanted to explore the influence that priming would have on the percieved
+					pitch of notes as a melody was upshifted beyond 4kHz, the limit that the ear can phaselock
+					to soundwaves. We were inspired by the NBC chime illusion, where a familiar melody 
+					is initially unrecognizable when it's pitches are beyond 4kHz, but as the tune is brought
+					into phaselock range and then above it again, the tune is recognizable at higher frequencies
+					than before. Now that the tune is known to be a specific melody, it can be percieved at
+					beyond the limit for accurate pitch detection. We believe this to be an example of Bayesian
+					inference; now that the listener has a new prior on the type of sound they are hearing, that
+					being the NBC chime, as long as the rest of the information they can hear is consistent, timing
+					and number of notes, they percieve the sound despite having incomplete pitch information.
+				</p>
+				<p>
+					In brief, our illusion primes the user with the Imperial March theme that is upshifted an octave at a time, 
+					and once the phaselocking limit is passed, changes pitch elements of the sound to see if the changes
+					are detectable to the user. By priming the user with a certain melody within the phaselocking limit, the listener 
+					now expects to hear the sound they have developed a prior to. The sound is played 7 times with the same rhythm across
+					, with the 5th having changed notes but same relative ordering of tones, i.e. note 4 is higher in frequency than
+					note 5 if that was the case in the original sound. The 6th and 7th iterations play a different frequency ordering of the
+					 notes, with the final segment of the sound notably descending instead of ascending. With this illusion, we found that we 
+					were able to detect the pitch anomalies at much higher frequencies than phaselocking would suggest we'd be able to detect.
+				</p>
 				<p>If headphones should be used (e.g. because you're using spatial sound), say that here.</p>
 
 				<!-- Here is some template code to help you insert sounds and images into the page: -->
 				<!-- How to insert sounds -->
 				<audio controls>
-				  <source src="TODO:my_sound_name.wav" type="audio/wav">
-				Your browser does not support the audio element.
+					<source src="time_normed_imperial.wav" type="audio/wav">
+				  Your browser does not support the audio element.
+				</audio><br>
+				<audio controls>
+					<source src="Illusion.wav" type="audio/wav">
+				  Your browser does not support the audio element.
 				</audio><br>
 				<!--WAV files will work best-->
 
 				<!-- How to insert images:-->
-				<img src="TODO:my_image_name.png" width=500/><br>
+				<img src="spectrogram.jpg" width=500/><br>
 				<!--You can use the width parameter to change the size of your image-->
 				<!--src could be a gif, png, jpeg, etc.-->
 
@@ -78,8 +102,9 @@ Released   : 20140221
 				<img src="TODO:my_image_name.png" width=500 onClick="document.getElementById('s1').play(); return false;" style="cursor: pointer;"/><br>
 				<!-- you can use any short name in place of "s1" for audio id, it's just how the browser knows which sound to play using "getElementByID" -->
 
-				<p>TODO: insert the full citation to the papers that inspired you here.<p>
-
+				<p>Attneave, F., &amp; Olson, R. K. (1971). Pitch as a Medium: A New Approach to Psychophysical Scaling. The American Journal of Psychology, 84(2), 147–166. http://www.jstor.org/stable/1421351, Accessed 4/8/2014 15:35<p>
+				
+				<img src="935_clones.png" width=500/><br>
 		</div>
 		<!-- begin wwww.htmlcommentbox.com -->
 		 <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML </a> is loading comments...</div>
